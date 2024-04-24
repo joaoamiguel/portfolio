@@ -1,0 +1,92 @@
+header {
+    padding: 5px;
+    background-color: rgb(154, 178, 205);
+    text-align: center;
+}
+
+/* Estilizando os links */
+header a {
+    background-color: rgb(154, 178, 205);
+    border: none;
+
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    line-height: 40px;
+}
+
+header a:hover {
+    background-color: rgb(123, 148, 175);
+}
+
+header a:focus {
+    outline: none;
+}
+button:hover {
+    background-color: rgb(123, 148, 175);
+}
+
+
+body {
+    background-color: rgb(210, 239, 246);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.about_me {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1px;
+    text-align: center;
+}
+
+.projetos {
+    background-color: rgb(172, 212, 250);
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.Eu {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-bottom: 1px;
+    margin-left: 120px;
+}
+
+img.projeto_individual {
+    max-width: 40%;
+}
+
+footer {
+    background-color: rgb(154, 178, 205);
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.instagram {
+    max-width: 65px;
+    padding-right: 30px;
+}
+
+img.linkedin {
+    max-width: 65px;
+}
+
+img.github {
+    max-width: 70px;
+    padding-left: 30px;
+}
